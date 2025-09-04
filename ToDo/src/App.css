@@ -1,7 +1,17 @@
-div{
-  color: white;
-  background-color: skyblue;
-  text-align: center;
-  font-size: 24px;
-  padding: 20px;
+.app{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color: skyblue; 
+  height: 100vh;
 }
+
+.todoBox{
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px; 
+
+}
+
